@@ -1,0 +1,29 @@
+.chatInputContent {
+  height: 100%;
+}
+
+form {
+  display: flex;
+  align-items: stretch;
+  height: 100%;
+}
+form * {
+  height: 100%;
+}
+.inputField {
+  flex: 1;
+}
+input[type="text"] {
+  display: block;
+  width: 100%;
+  border: 1px solid #d3d3d3;
+  font-size: 1rem;
+  padding: 12px 24px;
+}
+form svg {
+  background-color: rgb(201, 201, 245);
+  height: 100% !important;
+  width: 60px !important;
+  padding: 5px 12px !important;
+  margin: 0 !important;
+}

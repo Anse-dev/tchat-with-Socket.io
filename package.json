@@ -1,0 +1,16 @@
+{
+  "name": "we-chat",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "watch:client": "npm run start --prefix client",
+    "watch:server": "npm run start --prefix client",
+    "build": "npm run build --prefix client"
+
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+
+}

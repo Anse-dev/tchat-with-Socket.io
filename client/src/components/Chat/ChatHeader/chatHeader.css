@@ -1,0 +1,12 @@
+.chatHeader-container {
+  height: 100%;
+  padding: 5px 20px;
+  background-color: rgb(201, 201, 245);
+}
+
+.chatHeader-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+}
